@@ -11,7 +11,7 @@ const spanner = new Spanner({
 const instanceId = 'vector-db'; // Replace with your Spanner instance ID
 const databaseId = 'vectordb'; // Replace with your Spanner database ID
 
-const gcsUri = 'gs://gb-cc12m/BigBuckBunny.mp4'
+const gcsUri = 'gs://your-bucket/BigBuckBunny.mp4'
 // Extract video name from gcsUri
 const videoName = gcsUri.split('/').pop().split('.')[0];
 
