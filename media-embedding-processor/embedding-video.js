@@ -26,7 +26,7 @@ function convertGCSToHttps(gcsUri) {
   }
 
   // Replace 'gs://' with 'https://storage.mtls.cloud.google.com/'
-  // https://storage.googleapis.com/gb-cc12m/BigBuckBunny.mp4
+  // https://storage.googleapis.com/your-bucket/BigBuckBunny.mp4
   const httpsUri = gcsUri.replace('gs://', 'https://storage.googleapis.com/');
 
   return httpsUri;
