@@ -1,0 +1,7 @@
+gradio
+google-cloud-spanner
+vertexai
+tqdm
+pandas
+numpy
+httpx
