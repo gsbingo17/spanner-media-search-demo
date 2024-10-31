@@ -21,7 +21,7 @@ This project processes media embeddings from images and videos stored in Google 
 2. Download and split the CC12M datasets
 
   ```sh
-  wget https://github.com/google-research-datasets/conceptual-12m
+  wget https://storage.googleapis.com/conceptual_12m/cc12m.tsv
   split -b 100m cc12m.tsv cc12m_part -d
   ```
 
